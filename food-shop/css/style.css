@@ -1,3 +1,7 @@
+:root{
+    --bg-pink: #fb79ad;
+}
+
 /* ===================================
     About
 ====================================== */
@@ -61,7 +65,7 @@
     border-right: 0px solid white;
 }
 ::-webkit-scrollbar-thumb {
-    background: #79a207;
+    background: var(--bg-pink);
     width: 0;
     height: 25%;
 }
@@ -370,7 +374,7 @@ header .navbar-simple .fixed-nav-items{
     -webkit-transform: scaleX(0);
     -ms-transform: scaleX(0);
     transform: scaleX(0);
-    background: #fb79ad;
+    background: var(--bg-pink);
     visibility: hidden;
     opacity: 0;
 }
@@ -596,7 +600,7 @@ header .navbar-simple .fixed-nav-items{
 .side-nav .navbar-nav .nav-link::after{
     content: "";
     position: absolute;
-    background: #fb79ad;
+    background: var(--bg-pink);
     display: inline-block;
     width: 0;
     height: 3px;
@@ -647,7 +651,7 @@ header .navbar-simple .fixed-nav-items{
     transition: background-color .5s ease;
 }
 .social-icons-simple li a:hover{
-    background-color: #fb79ad;
+    background-color: var(--bg-pink);
     border: 2px solid #fdf837;
     color: #fff;
 }
@@ -3647,10 +3651,6 @@ form.findus .form-control, form.findus textarea {
         box-shadow: 0 0 0 20px rgba(100, 121, 191, 0.1);
     }
 }
-
-/* 
-    rosa pastel #fb79ad
-*/
 
 .logo-dark{
     width: 50px;
