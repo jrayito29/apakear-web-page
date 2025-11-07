@@ -2192,8 +2192,9 @@ textarea {
 .about-sec .services-area {
   margin-top: 50px;
 }
-.about-sec .services .service-card:hover .image-holder i {
-  color: #79a207;
+.about-sec .services .service-card:hover .image-holder i,
+.about-sec .services .service-card:hover .image-holder svg {
+  color: var(--bg-pink);
   transition: 0.5s ease;
   cursor: pointer;
 }
@@ -2203,7 +2204,8 @@ textarea {
   margin: auto;
   margin-bottom: 15px;
 }
-.about-sec .services .service-card .image-holder i {
+.about-sec .services .service-card .image-holder i,
+.about-sec .services .service-card .image-holder svg {
   font-size: 100px;
 }
 .about-sec .services .service-card .service-heading {
@@ -2215,7 +2217,7 @@ textarea {
   transition: 0.5s ease;
 }
 .about-sec .services .service-card:hover .service-heading {
-  color: #79a207;
+  color: var(--bg-pink);
 }
 /* ===================================
       brand  css
